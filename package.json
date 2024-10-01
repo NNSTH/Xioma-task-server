@@ -1,0 +1,24 @@
+{
+  "name": "xioma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon -e js index.js",
+    "test": "NODE_ENV=test node index.js"
+  },
+  "author": "Naama Hofstadter",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "nodemon": "^3.1.7",
+    "ws": "^8.18.0"
+  }
+}
